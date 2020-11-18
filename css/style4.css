@@ -1,0 +1,12 @@
+svg circle {
+  fill: red;
+}
+
+html,
+body,
+svg {
+  height: 100%;
+}
+svg:not(:root) {
+  display: inline-block;
+}
