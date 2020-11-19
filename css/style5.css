@@ -1,0 +1,13 @@
+svg-off {
+  fill: grey;
+  stroke: black 1px solid;
+}
+
+.svg-on {
+  fill: red;
+  stroke: black 5px solid;
+}
+
+svg {
+  width: 1300px;
+}
