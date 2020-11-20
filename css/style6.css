@@ -1,0 +1,16 @@
+body {
+  height: 560px;
+  max-width: 560px;
+  margin: 100px auto auto auto;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border: 2px solid #333333;
+}
+
+.rect {
+  fill: green;
+  stroke-width: 2;
+  stroke: #333333;
+}
