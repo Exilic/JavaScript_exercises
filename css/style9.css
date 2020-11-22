@@ -1,0 +1,37 @@
+body {
+  background-color: #333333;
+}
+
+svg line {
+  stroke: #333333;
+  stroke-width: 40px;
+  stroke-linecap: round;
+}
+
+.color1 {
+  stroke: rgba(0, 162, 255, 0.712);
+}
+
+.color2 {
+  stroke: rgba(255, 196, 0, 0.712);
+}
+
+.color3 {
+  stroke: rgba(162, 0, 255, 0.712);
+}
+
+.color4 {
+  stroke: rgba(0, 255, 98, 0.712);
+}
+
+.color5 {
+  stroke: rgba(255, 17, 0, 0.712);
+}
+
+.color6 {
+  stroke: rgba(255, 0, 85, 0.712);
+}
+
+.color7 {
+  stroke: rgba(0, 255, 221, 0.712);
+}
