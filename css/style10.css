@@ -1,0 +1,10 @@
+body {
+  background-color: mediumpurple;
+}
+
+svg polyline {
+  stroke-width: 5px;
+  stroke-opacity: 0.5;
+  color: cadetblue;
+  fill: none;
+}
