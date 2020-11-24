@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 600px;
+  position: absolute;
+}
+
+img:hover {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+svg {
+  position: absolute;
+}
+
+.color1 {
+  fill: blueviolet;
+  opacity: 0.5;
+}
+
+.color2 {
+  fill: rgb(226, 153, 43);
+  opacity: 0.5;
+}
+
+.color3 {
+  fill: rgb(125, 226, 43);
+  opacity: 0.5;
+}
+
+.color4 {
+  fill: rgb(43, 107, 226);
+  opacity: 0.5;
+}
+
+.color5 {
+  fill: rgb(226, 43, 89);
+  opacity: 0.5;
+}

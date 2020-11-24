@@ -30,7 +30,10 @@ function drawPolyline() {
   } else {
     let targetPolyline = document.getElementsByTagName("svg")[0]
       .lastElementChild;
+    console.log(targetPolyline);
+    console.log(newPoints);
     let newPolylinePoints = targetPolyline.getAttribute("points") + newPoints;
+    console.log(newPolylinePoints);
     targetPolyline.setAttribute("points", newPolylinePoints);
   }
 }
@@ -39,17 +42,19 @@ window.addEventListener("mousedown", function (e) {
   if (!drawingLine) {
     xOrigin = e.pageX;
     yOrigin = e.pageY;
-    drawPolyline();
+    timedDrawing = setInterval(function () {
+      drawPolyline();
+    }, 300);
   }
 });
 
 window.addEventListener("mousemove", function (e) {
   if (drawingLine) {
-    let newPoints = " " + e.pageX + ", " + e.pageY;
-    setTimeout(drawPolyline(), 400);
+    newPoints = " " + e.pageX + ", " + e.pageY;
   }
 });
 
 window.addEventListener("mouseup", function (e) {
   drawingLine = false;
+  clearInterval(timedDrawing);
 });

@@ -1,10 +1,10 @@
 body {
-  background-color: mediumpurple;
+  background-color: rgb(188, 160, 243);
 }
 
 svg polyline {
-  stroke-width: 5px;
-  stroke-opacity: 0.5;
-  color: cadetblue;
+  stroke-width: 110px;
+  stroke-opacity: 0.3;
+  stroke: rgb(115, 158, 240);
   fill: none;
 }
