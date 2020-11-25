@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+main {
+  position: relative;
+}
+
+main > img {
+  display: inline-block;
+  width: 30%;
+}
