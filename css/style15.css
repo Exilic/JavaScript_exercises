@@ -1,0 +1,9 @@
+body {
+  background-color: #bbbbbb;
+}
+
+svg {
+  stroke: #333333;
+  stroke-width: 3px;
+  fill: rgba(255, 255, 255, 0.3);
+}
