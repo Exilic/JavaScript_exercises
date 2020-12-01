@@ -1,5 +1,3 @@
-var inputString;
-var latestKey;
 var inputRange = document.getElementsByTagName("input")[0];
 
 inputRange.addEventListener("input", function (e) {
