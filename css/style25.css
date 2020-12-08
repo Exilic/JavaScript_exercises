@@ -1,0 +1,9 @@
+svg line {
+  stroke-width: 8px;
+  stroke: blue;
+  marker-end: url(#arrowhead);
+}
+
+#arrowhead {
+  fill: blue;
+}
