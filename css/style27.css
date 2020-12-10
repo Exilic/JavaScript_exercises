@@ -1,0 +1,13 @@
+body {
+  display: flex;
+}
+
+body * {
+  vertical-align: top;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  width: 1rem;
+}
