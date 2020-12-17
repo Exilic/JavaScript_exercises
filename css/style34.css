@@ -1,0 +1,14 @@
+body {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 150px;
+  font-family: myriad-pro;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  color: #111111;
+  hyphens: auto;
+}
