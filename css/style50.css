@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template: 50px auto / auto 600px auto;
+}
+
+main {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.clicked {
+  opacity: 0.1;
+}
+
+aside {
+  font-size: 5.4rem;
+  grid-area: 2 / 2 / 3 / 3;
+}
