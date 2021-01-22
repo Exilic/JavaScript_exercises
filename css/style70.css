@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  display: grid;
+  grid-template-rows: 50px auto 200px;
+}
+
+header {
+  grid-row: 1 / 2;
+  background-color: #666;
+}
+
+main {
+  grid-row: 2 / 3;
+  width: 600px;
+  margin: 50px auto;
+}
+
+footer {
+  grid-row: 3 / 4;
+  width: 400px;
+  margin: 20px auto;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  padding: 10px 30px;
+  color: #eee;
+}
+
+main h1 {
+  font-size: 3.2rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
