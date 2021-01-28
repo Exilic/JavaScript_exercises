@@ -2,7 +2,6 @@ const signal = (color) => (document.body.style.backgroundColor = color);
 const choice = (number, content) => (document.getElementById(`choix${number}`).innerHTML = content);
 
 document.getElementsByTagName("table")[0].addEventListener("click", (e) => {
-  console.log(e.target.innerHTML);
   if (e.target.innerHTML == "Faux") {
     signal("red");
   } else if (e.target.innerHTML == "Vrai") {
